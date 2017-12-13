@@ -15,9 +15,6 @@ testRead = do
       strs = map init cases
       singleWords = map words strs
       intoNumbers = map f singleWords
-  print text
-  print "Hello"
-  print strs
   print intoNumbers
 
 f :: [String] -> [Int]
